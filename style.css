@@ -1,0 +1,57 @@
+/* Add custom styles for the portfolio site */
+body {
+    background-color: #f8f9fa; /* Light gray background color */
+}
+
+.navbar {
+    background-color: #343a40 !important; /* Dark navbar background color */
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff !important; /* White text color for navbar links */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff; /* White color for the navbar toggle button */
+}
+
+/* Style the jumbotron in the "About" section */
+#about {
+    background-image: url('background.jpg'); /* Add a background image */
+    background-size: cover;
+    color: #000000; /* White text color for the section */
+    padding: 100px 0;
+}
+
+/* Style the portfolio cards */
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/* Style the "Contact Me" section */
+#contact {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+/* Style the form inputs and button */
+.form-control {
+    border: 2px solid #343a40;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
